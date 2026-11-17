@@ -11,7 +11,7 @@ API REST pour la refonte des services Facebook : **utilisateurs, événements, g
 ## 1. Installation et lancement
 
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/Ilian734/social-networks-api.git
 cd social-networks-api
 npm install
 cp .env.example .env      # puis adapter MONGO_URI si besoin
