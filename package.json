@@ -1,0 +1,22 @@
+{
+  "name": "social-networks-api",
+  "version": "1.0.0",
+  "description": "API REST Social Networks (événements, groupes, discussions, albums, sondages, billetterie, shopping list, covoiturage) - Express + MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "postman:build": "node docs/build-postman.js"
+  },
+  "keywords": [],
+  "author": "Ilian Kherbouche",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
